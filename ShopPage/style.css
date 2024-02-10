@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/wp4386653.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+h1 {
+    font-size: 60px; 
+    color: rgb(255, 255, 255); 
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0074e5, 0 0 20px #0074e5, 0 0 25px #0074e5, 0 0 30px #0074e5, 0 0 35px #0074e5;
+    text-align: center;
+}
+h2 {
+    font-size: 40px; 
+    color: rgb(8, 8, 8); 
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0074e5, 0 0 20px #0074e5, 0 0 25px #0074e5, 0 0 30px #0074e5, 0 0 35px #0074e5;
+    text-align: center;
+    line-height: 0;
+}
+
+#myDIV {
+    height:500px;
+    display: grid;
+    gap: 80px;
+    background-color: #4d9be9;
+    padding: 50px;
+    grid: 220px 220px / auto auto auto;
+    row-gap: 50px;
+    
+  }
+  #myDIV div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  img{
+    width: 250px;
+    height: 190px;
+    
+  }
+  .button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: rgba(255, 255, 255, 0); 
+    color: black; 
+}

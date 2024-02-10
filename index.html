@@ -4,17 +4,185 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
     
     <!--This is the title / reference to the CSS file which helps us with the design of the website-->
     <title>Mindful_Buddy</title>
     <link rel = "stylesheet" href = "style.css">
-</head>
-<body>
-    <h1 style = "color:aquamarine"> Hello, [Your Name]!</h1>
 
-
-    <p id = "answer"></p>
-
+    <script src="script.js"></script>
     
-</body>
+    <script>
+        var numCoins = 0;
+    </script>
+    <style>
+        
+        
+        #myImage{
+            width: 40px;
+            height: 40px;
+            float: right;
+            object-position: top 50px;
+            /*object-position: 100px 100px;*/
+            /* margin-right: 10px; */
+        }
+        
+        .button {
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button1 {
+            background-color: rgba(255, 255, 255, 0); 
+            color: black; 
+            /* position: relative;
+            bottom: 0%;
+            right: 3%; */
+            /* border: 2px solid #1212123f; */
+            /* background-image: url('https://purepng.com/public/uploads/large/purepng.com-shopping-bag1020-litresshopping-bagsnon-grocerydesignedpaper-1421526643966jeo6o.png'); */
+        }
+
+        .button1:hover {
+            background-color: rgb(229, 136, 215);
+            color: white;
+        }
+       
+    
+        .topRightImage{
+            position: absolute;
+            display: inline-block;
+            top: 2%;
+            right: 7%;
+        
+        }
+
+        
+        
+
+        .content {
+            font-family: Verdana, sans-serif; 
+            color: #333; 
+        }
+        
+        .content h1 {
+            font-size: 52px; 
+            color: rgb(130, 159, 199); 
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0074e5, 0 0 20px #0074e5, 0 0 25px #0074e5, 0 0 30px #0074e5, 0 0 35px #0074e5;
+        }
+        
+        .content h2 {
+            font-size: 24px; 
+            color: #cce1ea; 
+        }
+
+        .navigationbar{
+            background: rgb(130, 159, 199); 
+            font-family: Verdana, sans-serif; 
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        .navigationdiv{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        li{
+            list-style: none;
+            display:inline-block;
+            
+        }
+        li a{
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            margin-left: 230px;
+            margin-right: 20px;
+            text-align: center;
+            font-family: Verdana; 
+            
+        }
+
+        #coin_count {
+            font-size: 40px;
+            color: rgb(254, 254, 254);
+            line-height: 40px;
+            margin-right: 50px;
+        }
+
+        
+    </style>
+    </head>
+
+    <body> 
+        <!--<section class = "header"></section>-->
+        <!--<div class = "banner"></div>-->
+        <!-- <button class="button button1" onclick="window.location.href = 'ShopPage.html';">Shop</button> -->
+        <!--
+            <div class="bottomRight">
+                <button class="button button1" onclick="window.location.href = 'ShopPage.html';"> 
+                    <img src = "https://purepng.com/public/uploads/large/purepng.com-shopping-bag1020-litresshopping-bagsnon-grocerydesignedpaper-1421526643966jeo6o.png" style ="width:50px; height:50px;">
+                </button>
+            </div>
+        -->
+        
+        <!--this is the coin image-->
+        <div class="topRightImage">
+            <script src= "coin.js"></script>
+            
+            <img id="myImage" src = "https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/60815/golden-dollar-coin-clipart-md.png" />
+            <div id="coin_count">0</div>
+        </div>
+    
+
+       
+        <!--
+            <div class="topLeftButton">
+            <button class ="button button1" onclick="window.location.href = 'NotificationPage.html';""> 
+                <img src = "https://static.vecteezy.com/system/resources/previews/009/342/147/non_2x/golden-bell-clipart-design-illustration-free-png.png" style ="width:60px; height:60px;">
+            </button>
+        </div>
+        -->
+        
+        
+        <!-- <p id="show-me"></p> -->
+
+       
+
+        <div class="content">
+            <h1>WELCOME TO MINDFUL BUDDY</h1>
+            <h2>“Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.”</h2>
+            <h2>-Roy T. Bennett </h2>
+            <!-- <h2 id="show-me"></h2> 
+            <h2 id="message"></h2> -->
+        </div>
+        
+        <nav class ="navigationbar">
+            <div class = "navigationdiv">
+                <div class ="menubar">
+                    <ul>
+                        <!-- <li><a href ="#"> Shop </a></li> -->
+                        <li><a href ="#" onclick="window.location.href = '/To-DoList/todolist.html';"> To-Do List </a></li>
+                        <li><a href ="#" onclick="window.location.href = '/resources.html';"> Resources </a></li>
+                        <li><a href ="#" onclick="window.location.href = '/ShopPage/shopPage.html';"> Shop </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- <p id="show-me"></p> -->
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+
+    </body>
 </html>

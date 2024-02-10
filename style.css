@@ -1,16 +1,37 @@
 /*  This is the background image towards our website
     TO-DO: We still need to have the background based off what the user wants*/
+/*.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7) url(themes/Calming.avif));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}*/
 body{
     /*background-image: url(images/solar_background.png);*/
-    background-image: url(Themes/CherryBlossom2.jpeg);
+    background-image: linear-gradient(rgba(131, 124, 124, 0.75),rgba(64, 60, 60, 0.75)),url(themes/Calming.avif);
+    /*background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75), url(CherryBlossom2.jpeg));
    
     /*background-image: url(Themes/Sunflower.jpeg);*/
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+
 }
 
 h1{
     text-align: center;
 }
+
+.content{
+    position:absolute;
+    width:100%;
+    top:40%;
+    transform: translateY(-50%);
+    text-align:center;
+    color:#fff;
+}
+
+
