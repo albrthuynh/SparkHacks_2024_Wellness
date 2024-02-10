@@ -4,7 +4,7 @@ A website that will be created for better mental health
 The website is called Mindful Buddy.
 
 This website's purpose was to provide people with a fun way to do their daily tasks! 
-Sometimes people may have a hard time drinking enough water or eating enough food.
+Sometimes people who are struggling mentally may have a hard time drinking enough water or eating enough food.
 This app is directed towards those who may struggle mentally, but anyone can use the website.  
 Mindful Buddy is a way to provide users motivation towards doing those tasks, hoping 
 that eventually, the to-do lists that they do will become a habit they develop.
@@ -25,7 +25,7 @@ screens. The main screen is where you get to see how many coins you have, and wi
 navigation parts of the website. The To-Do List screen will provide you with the to-do list for 
 today where you input what you want to do for that day. Each time a task is completed that will
 count for a coin. The resources page is where the user can find any information/websites that 
-they will need for any type of aid for mental illness or stress. Finally, the a shop where there 
+they will need for any type of aid for mental illness or stress. Finally, the shop where there 
 will be multiple animals where the user can adopt their pets using the coins they gained through
 completing their tasks.
 
