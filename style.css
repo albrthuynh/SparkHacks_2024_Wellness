@@ -1,0 +1,16 @@
+/*  This is the background image towards our website
+    TO-DO: We still need to have the background based off what the user wants*/
+body{
+    /*background-image: url(images/solar_background.png);*/
+    background-image: url(Themes/CherryBlossom2.jpeg);
+   
+    /*background-image: url(Themes/Sunflower.jpeg);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+}
