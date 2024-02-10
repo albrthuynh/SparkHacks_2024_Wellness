@@ -11,7 +11,7 @@
     <title>Mindful_Buddy</title>
     <link rel = "stylesheet" href = "style.css">
 
-    <script src="script.js"></script>
+    <script src="coin.js"></script>
     
     <script>
         var numCoins = 0;
@@ -135,13 +135,18 @@
             </div>
         -->
         
+        
         <!--this is the coin image-->
         <div class="topRightImage">
-            <script src= "coin.js"></script>
             
+            <script src= "coin.js"></script>
             <img id="myImage" src = "https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/60815/golden-dollar-coin-clipart-md.png" />
-            <div id="coin_count">0</div>
+            
+            <button type = "button" onclick="coinInc()">Press once task is completed!</button>
+            <p>Coins: <a id="coincounter">0</a></p>
+            
         </div>
+        
     
 
        
