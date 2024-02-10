@@ -13,6 +13,13 @@ The user has a to-do list to complete their tasks, and whenever a task is comple
 the user will get a coin. With the coin that the user gets, a shop will be available 
 with tons of cute animals and the user can use their coins to adopt the animals as their pets.
 
+Mindful Buddy wants to address mental health problems that are problematic in one's day-to-day
+lives. By making self-care tasks a fun game, it encourages the user to perform more personal
+wants and productive actions which encourages a healthier lifestyle. This in turn improves 
+one's mood, energy, and self-image as they are improving themselves, and spending the time to
+become more productive. Mindful Buddy has the intention of wanting the user to better their mental
+health through living a healthier lifestyle.
+
 With a combination of HTML, CSS, and JavaScript, Mindful Buddy provides an excellent way for users 
 to get motivation towards completing their daily tasks. 
 
@@ -25,7 +32,7 @@ screens. The main screen is where you get to see how many coins you have, and wi
 navigation parts of the website. The To-Do List screen will provide you with the to-do list for 
 today where you input what you want to do for that day. Each time a task is completed that will
 count for a coin. The resources page is where the user can find any information/websites that 
-they will need for any type of aid for mental illness or stress. Finally, the shop where there 
+they will need for any type of aid for mental illness or stress. Finally, the a shop where there 
 will be multiple animals where the user can adopt their pets using the coins they gained through
 completing their tasks.
 
