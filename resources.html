@@ -1,3 +1,4 @@
+<!-- Mental Health Resources Page -->
 <!DOCTYPE html>
 <html>
 
@@ -5,57 +6,87 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Resources For Mental Health</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="resources.css" rel="stylesheet" type="text/css" />
 
   <style>
-/* 
-    body {
-      position: relative; 
-      align-items: center;
-      justify-content: space-between;
-      min-height: 100vh;
-      margin: 0;
-    } */
-
-    h1 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 20px;
-      font-size: large;
-      position: absolute;
-      bottom: 20px;
-    
-    }
-
-    h1 img {
-      position: relative;
-      bottom: 2px;
-    }
-
+    /* title */
     h2 {
       text-align: center;
     }
-  </style>
-  
-</head>
 
+    /* instagram image style */
+    h3 img{
+      width: 50px;
+    }
+
+
+  </style>
+</head>
 <body>
     <h2>Here are resources and websites for your needs!</h2>
     <h2>Websites to choose from: </h2>
 
-
-
-    
-  <h1>Happiness Project!
+  <h3>Follow Happiness Project!
     <a href="https://www.instagram.com/happinessproject/" target="_blank"> 
-      <img src="Icons/instagram.png" width = "100px" alt = "Instagram icon">
+      <img src="Icons/instagram.png" width = "50px" alt = "Instagram icon">
     </a>
-  </h1>
+  </h3>
 
+  <article>
+    <h1>
+      <!-- 3x2 Grid Layout -->
+    </h1>
+    <section>
+      <div class="grid">
+        
+        <!-- <h3>General Resources</h3> -->
+        <div class = "grid-item">
+          <figure>
+            <a href = "https://afsp.org/suicide-prevention-resources/"><img src="icons/okayforhelp.webp" alt = "Suicide Prevention"></a>
+            <figcaption>Suicide Prevention</figcaption>
+          </figure>
+        </div>
+        
+        <div class = "grid-item">
+          <figure>
+            <a href ="https://www.apa.org/"><img src="icons/mental_health.jpeg" alt = "Mental Health"></a>
+            <figcaption>General Resources</figcaption>
+          </figure>
+        </div>
+        
+        <div class = "grid-item">
+          <figure>
+            <a href = "https://www.nhs.uk/mental-health/self-help/tips-and-support/cope-with-depression/"><img src="icons/mentalhealth.png" alt = "Depression"></a>
+            <figcaption>Fighting Depression</figcaption>
+          </figure>
+        </div>
+       
 
+        <div class = "grid-item">
+          <figure>
+            <a href = "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/anxiety-treatment-options"><img src="icons/calmingimage.jpeg" alt = "Handling Anxiety"></a>
+            <figcaption>Handling Anxiety</figcaption>
+          </figure>
+        </div>
 
+        <div class = "grid-item">
+          <figure>
+            <a href = "https://www.dea.gov/recovery-resources"><img src="icons/brainhealth.png" alt = "Addiction Help"></a>
+            <figcaption>Addiction Help</figcaption>
+          </figure>
+        </div>
+       
+        <div class = "grid-item">
+          <figure>
+            <a href = "https://anad.org/" ><img src="icons/headhealth.jpeg" alt = "Eating Disorder Help"></a>
+            <figcaption>Eating Disorder Help</figcaption>
+          </figure>
+        </div>
+     
+      </div>
+    </section>
+  </article>
+  
   <script src="script.js"></script>
 </body>
-
 </html>
